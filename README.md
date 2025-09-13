@@ -16,3 +16,13 @@ Automatically detects client platform
 Routes to appropriate storage adapter
 
 Provides platform-specific capabilities
+
+// Same message format across all platforms:
+{
+  type: 'SET',
+  payload: {
+    collection: 'cart',
+    key: 'user123',
+    value: { items: [...], total: 42.07 }
+  }
+}
