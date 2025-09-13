@@ -26,3 +26,15 @@ Provides platform-specific capabilities
     value: { items: [...], total: 42.07 }
   }
 }
+
+Key Features:
+
+Platform Auto-Detection: Automatically detects browser, React Native, or Node.js
+
+Unified API: Same methods work everywhere (get(), set(), delete(), query())
+
+Auto-Reconnection: Handles connection drops gracefully
+
+Real-time Subscriptions: Live data updates across all connected clients
+
+Convenience Methods: Ready-to-use for cart, sessions, chat messages
